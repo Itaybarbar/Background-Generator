@@ -47,4 +47,6 @@ body.appendChild(random);
 		+ ", " 
 		+ randColor() 
 		+ ")";
+
+		css.textContent = body.style.background + ";";
 	});
